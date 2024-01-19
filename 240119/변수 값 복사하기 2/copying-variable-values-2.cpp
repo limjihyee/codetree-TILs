@@ -7,7 +7,7 @@ int main() {
     int b = 6;
     int c = 7;
 
-    c=a=b;
+    a=b=c;
 
     cout << a << " " << b << " " << c;
     return 0;
