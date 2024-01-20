@@ -10,6 +10,6 @@ int main() {
     if(a<0){
         cout << a << endl << "minus";
     }
-    cout << a;
+    else cout << a;
     return 0;
 }
