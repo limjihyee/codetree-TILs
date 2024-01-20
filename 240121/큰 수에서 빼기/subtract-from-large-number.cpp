@@ -10,5 +10,7 @@ int main() {
     if(a<b){
         cout << b-a;
     }
+    else cout << a-b;
+    
     return 0;
 }
