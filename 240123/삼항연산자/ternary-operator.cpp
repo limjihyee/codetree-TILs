@@ -9,7 +9,7 @@ int main() {
 
     cin >> a;
 
-    b = a == 100 ? "pass" : "fail";
+    b = a == 100 ? "pass" : "failure";
 
     cout << b;
 
