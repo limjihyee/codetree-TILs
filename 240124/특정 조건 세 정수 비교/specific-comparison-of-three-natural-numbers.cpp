@@ -6,13 +6,13 @@ int main() {
     cin >> a >> b >> c;
 
     int d;
-    if(a<b && a<c){ // a가 제일 작을 경우
+    if(a<=b && a<=c){ // a가 제일 작을 경우
         d = a;
     }
-    else if(b<a && b<c){ // b가 제일 작을 경우
+    else if(b<=a && b<=c){ // b가 제일 작을 경우
         d = b;
     }
-    else if(c<a && c<b) {
+    else if(c<=a && c<=b) {
         d = c;
     }
 
