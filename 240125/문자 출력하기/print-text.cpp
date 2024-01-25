@@ -7,7 +7,7 @@ int main() {
     cin >> a;
 
     for(int i=1; i<=8; i++){
-        cout << a << " ";
+        cout << a;
     }
     
     return 0;
