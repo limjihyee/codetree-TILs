@@ -5,13 +5,13 @@ int main() {
     int n;
     cin >> n;
 
-    if(n%2!=0 || n%3!=0){
-        cout << "P";
+    if(n%2==0 || n%3==0){
+        cout << "C";
     }
-    else if(n==2 && n==3){
+    else if(n==2 || n==3){
         cout << "P";
     }
     else cout << "C";
-    
+
     return 0;
 }
