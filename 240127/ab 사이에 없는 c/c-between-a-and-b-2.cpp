@@ -8,17 +8,17 @@ int main() {
     int cnt=0;
 
     for(int i=a; i<=b; i++){
-        if(i%c!=0){ // c의 배수가 없다면
+        if(i%c==0){ // c의 배수가 있다면
             cnt++;
         }
     }
 
     if(cnt>0){
-        cout << "YES";
-    }
-    else{
         cout << "NO";
     }
-    
+    else{
+        cout << "YES";
+    }
+
     return 0;
 }
