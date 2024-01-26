@@ -5,13 +5,22 @@ int main() {
     int n;
     cin >> n;
 
-    if(n%2==0 || n%3==0){
+    int cnt = 0;
+
+    for(int i=2; i<1000; i++){
+        if(i!=n){
+            if(n%i==0){
+                cnt++;
+            }
+        }
+    }
+
+    if(cnt>0){
         cout << "C";
     }
-    else if(n==2 || n==3){
+    else{
         cout << "P";
     }
-    else cout << "P";
-
+    
     return 0;
 }
