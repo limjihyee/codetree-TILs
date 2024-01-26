@@ -11,7 +11,7 @@ int main() {
     else if(n==2 || n==3){
         cout << "P";
     }
-    else cout << "C";
+    else cout << "P";
 
     return 0;
 }
