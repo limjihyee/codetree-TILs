@@ -10,13 +10,13 @@ int main() {
     while(i<b){
         if(i%2==1){
             i*=2;
-            if(i<b){
+            if(i<=b){
              cout << i << " ";
             }
         }
         else{
             i+=3;
-            if(i<b){
+            if(i<=b){
              cout << i << " ";
             }
         }
