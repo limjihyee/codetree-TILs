@@ -9,7 +9,7 @@ int main() {
         for(int j=n; j>n-i; j--){
             cout << "  ";
         }
-        for(int k=n+(3-i); k>=i; k--){
+        for(int k=n-i; k>=i-(n-2); k--){
             cout << "* ";
         }
         cout << endl;
