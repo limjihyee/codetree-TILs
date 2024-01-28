@@ -14,9 +14,6 @@ int main() {
             cout << "* ";
         }
        
-        // for(int l=0; l<2*i+3; l++){ // 증가하는 별
-        //     cout << "* ";
-        // }
         cout << endl;
     }
 
