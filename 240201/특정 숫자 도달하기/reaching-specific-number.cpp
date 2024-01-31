@@ -18,6 +18,8 @@ int main() {
         i++;
     }
 
+    cout << fixed;
+    cout.precision(1);
     cout << sum << " " << (float)sum/cnt;
 
     return 0;
