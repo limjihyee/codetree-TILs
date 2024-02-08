@@ -14,7 +14,7 @@ int main() {
             cout << (char)(65+l) << " ";
 
             if(l==25){
-                k=0;
+                l=0;
             }
             else{
                 l++;
