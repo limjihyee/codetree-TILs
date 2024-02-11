@@ -6,7 +6,7 @@ int main() {
     int a;
     cin >> a;
 
-    int sum[10]; // 10명 미만의 학생들의 점수 저장
+    float sum[10]; // 10명 미만의 학생들의 점수 저장 (나중에 평균 계산해야 하니까 float)
 
     int cnt = 0; // 통과한 사람 
 
