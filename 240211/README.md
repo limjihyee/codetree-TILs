@@ -12,7 +12,7 @@
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
-|[Novice Low / 1차원 배열 / 한 줄에 여러 개 입력](https://www.codetree.ai/missions?missionId=4)|[[연습]시험 통과 여부 확인하기 2](https://www.codetree.ai/missions/4/problems/verify-test-passed-2)|![보통][medium]|![Failed][failed]|[링크](https://github.com/limjihyee/codetree-TILs/blob/main/240211/%EC%8B%9C%ED%97%98%20%ED%86%B5%EA%B3%BC%20%EC%97%AC%EB%B6%80%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0%202/verify-test-passed-2.cpp)|
+|[Novice Low / 1차원 배열 / 한 줄에 여러 개 입력](https://www.codetree.ai/missions?missionId=4)|[[연습]시험 통과 여부 확인하기 2](https://www.codetree.ai/missions/4/problems/verify-test-passed-2)|![보통][medium]|![Passed][passed]|[링크](https://github.com/limjihyee/codetree-TILs/blob/main/240211/%EC%8B%9C%ED%97%98%20%ED%86%B5%EA%B3%BC%20%EC%97%AC%EB%B6%80%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0%202/verify-test-passed-2.cpp)|
 
 
 * 획득 경험치: 해설을 보지 않고 푼 문제에 한해 최초 1회 경험치를 획득하실 수 있습니다.
