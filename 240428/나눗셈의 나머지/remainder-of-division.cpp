@@ -9,8 +9,12 @@ int main() {
 
     cin >> a >> b;
 
-    while(a > b)
+    while(a > 0)
     {
+        if(a == 1){
+            break;
+        }
+        
         int remainder = a % b;
         arr[remainder]++; // 나머지의 등장 횟수 증가
         a /= b; // 몫으로 갱신
