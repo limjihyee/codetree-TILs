@@ -3,24 +3,20 @@ using namespace std;
 
 int main() {
     int a, b, i, sum2;
-    int sum[100] = {0};
-    int arr[100] = {0};
+    int arr[100] = {0}; // 각 나머지의 등장 횟수를 저장할 배열
     sum2 = 0;
     i = 0;
 
     cin >> a >> b;
 
-    while(1)
+    while(a > b)
     {
-        if(a <= 0){
-            break;
-        }
-        sum[i] = a%b;
-        a /= b;
-        arr[sum[i]]++;
-        i++;
+        int remainder = a % b;
+        arr[remainder]++; // 나머지의 등장 횟수 증가
+        a /= b; // 몫으로 갱신
     }
 
+    // 각 나머지의 등장 횟수를 제곱하여 합산
     for(i=0; i<=9; i++){
         sum2 += arr[i] * arr[i];
     }
