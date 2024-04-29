@@ -48,6 +48,7 @@ int main() {
             for(int j=s-1; j<e; j++){
                 cout << arr[j] << " ";
             }
+            cout << endl;
         }      
     }
     
