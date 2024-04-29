@@ -21,17 +21,17 @@ int main() {
         }
     }
 
-    int max2
-    bool initialize = false;
+    int max2;
+    
+    if(maxPoint == 0){
+        max2 = a[1];
+    } else{
+        max2 = a[0];
+    }
 
     for(int i=0; i<n; i++){
         if(i == maxPoint){
             continue;
-        }
-
-        if(initialize == false){
-            initialize = true;
-            max2 = a[i];
         }
         else if(a[i] > max2){
             max2 = a[i];
