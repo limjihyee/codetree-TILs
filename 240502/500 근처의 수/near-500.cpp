@@ -17,7 +17,7 @@ int main() {
     int max, min;
 
     // max와 min 할당
-    for(int i=0; i<n; i++){
+    for(int i=0; i<10; i++){
         // 500 초과의 수 중 가장 작은 수
         if(arr[i] > 500){
             min = arr[i];
@@ -29,9 +29,10 @@ int main() {
         }
     }
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<10; i++){
         // 500 초과의 수 중 가장 작은 수
         if(arr[i] > 500){
+
             if(min > arr[i]){
                 min = arr[i];
             }
@@ -39,6 +40,7 @@ int main() {
 
         // 500 미만의 수 중 가장 큰 수
         if(arr[i] < 500){
+
             if(max < arr[i]){
                 max = arr[i];
             }
