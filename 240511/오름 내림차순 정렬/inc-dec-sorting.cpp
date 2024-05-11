@@ -13,7 +13,7 @@ int main() {
     }
 
     // 오름차순
-    sort(arr, arr+n+1);
+    sort(arr, arr+n);
     for(int i=0; i<n; i++){
         cout << arr[i] << " ";
     }
